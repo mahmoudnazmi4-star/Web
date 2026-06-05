@@ -246,13 +246,6 @@ header nav .container .links ul li:hover a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-.features .container {
-    overflow: hidden;
-    background-image:url(/img/tyler-lastovich-AVzByhROPbs-unsplash\ 1.png) ;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     padding: 7rem 4rem  10rem ;
 }
 .features .container img{
