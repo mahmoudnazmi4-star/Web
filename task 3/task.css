@@ -1,0 +1,60 @@
+:root {
+    --text-color: #8888;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.d-flex {
+    display: flex;
+}
+.p-20 {
+    padding: 1.5rem;
+}
+.mb-10 {
+    margin-bottom: 0.5rem;
+}
+.c-grey {
+    color: var(--text-color);
+}
+/* Golabel  */
+
+
+.galry  {
+    padding-top:40px ;
+}
+.galry .container {
+    justify-content: center;
+    gap: 20px;
+}
+.galry .container .big-box {
+    width: 30%;
+    box-shadow: 0px 0px 5px #8888;
+}
+.galry .container .big-box img {
+    width: 100%;
+}
+
+
+.galry .container  .tips {
+    flex-direction: column;
+    gap: 20px;
+    width: 40%;
+}
+.galry .container  .tips .tip {
+    gap: 20px;
+    box-shadow: 0px 0px 5px #8888;
+}
+.galry .container  .tips .tip img {
+    width: 20%;
+}

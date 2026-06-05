@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --main-color: #4CAF4F;
+    --secound-color: #fff;
+    --font-color: #717171;
+    --bg-color: #717171;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+ul {
+    list-style: none;
+}
+.inline{
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.c-green {
+    color: var(--main-color);
+}
+.mr-20{
+    margin-right: 20px;
+}
+/* Start Nav */
+nav {
+    padding: 20px 0px;
+}
+nav .link{
+    float: right;
+}
+nav .container ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+nav .container ul .acc {
+    margin-left: 350px;
+}
+nav .container ul .acc .signup{
+    background-color:var(--main-color) ;
+    color: var(--secound-color);
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+/* End Nav */
+
+/* Start land */
+.land {
+    padding: 15rem 0rem;
+    background-color: #F5F7FA;
+}
+.land .container .info{
+    display: inline-block;
+    vertical-align: top;
+    margin: 50px  300px  0px 0px;
+}
+.land .container .info h2{
+    font-size: 50px;
+}
+.land .container .info h2 span{
+    color: var(--main-color);
+}
+.land .container .info p{
+    color: var(--font-color);
+}
+.land .container .info a{
+    display: inline-block;
+    margin-top: 40px;
+    color: var(--font-color);
+    background-color:var(--main-color) ;
+    color: var(--secound-color);
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.land .container img{
+    width: 34%;
+}
+/* End land */
+/* Start about */
+.about {
+    padding: 15rem 0rem;
+}
+.about .container .info{
+    width: 40%;
+    display: inline-block;
+    margin: 90px 0px 0px 112px;
+    vertical-align: top;
+}
+.about .container .info h2{
+    font-size: 45px;
+    color: #4D4D4D;
+}
+.about .container .info h2 span{
+    color: var(--main-color);
+}
+.about .container .info p{
+    margin-top: 10px;
+    color: #717171;
+}
+.about .container .info a{
+    display: inline-block;
+    margin-top: 40px;
+    color: var(--font-color);
+    background-color:var(--main-color) ;
+    color: var(--secound-color);
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+.about .container img{
+    width: 40%;
+}
+/* End about */
+/* Start num */
+.number {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.number .container .text {
+    display: inline-block;
+    width: 40%;
+    text-align: start;
+}
+.number .container .text h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.number .container .text h2 span {
+    color: var(--main-color);
+}
+.number .container .icons {
+    display: inline-block;
+    width: 40%;
+}
+.number .container .icons .icon{
+    display: inline-block;
+    width: 40%;
+    padding: 20px;
+}
+.number .container .icons .icon h3{
+    display: inline-block;
+}
+.number .container .icons .icon span{
+    font-size: 15px;
+    color: #717171;
+}
+.number .container .icons .icon i{
+    color: var(--main-color);
+    font-size: 40px;
+}
+/* End num */

@@ -1,0 +1,138 @@
+:root{
+    --main-color:white;
+    --sec-color:#285E67;
+    --thr-color:#FCE2D7;
+    --font-color:#2A2A2A;
+    --background-color:#F4F4F4;
+    --main-padding:50px;
+    --black-color:black;
+}
+ul{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/* colot ~ background */
+.bg-bule{
+    background-color: var(--sec-color);
+}
+.c-bule{
+    color: var(--sec-color);
+}
+.bg-gray{
+    background-color: var(--background-color);
+}
+.c-black{
+    color: black;
+}
+.c-white{
+    color: var(--main-color);
+}
+.c-font{
+    color: var(--font-color);
+}
+/* .. */
+
+/* display */
+.d-flex {
+    display: flex;
+}
+.gap-2{
+    gap: 2rem;
+}
+.align-center{
+    align-content:center ;
+}
+.text-center{
+    text-align:center ;
+}
+.items-center{
+    align-items:center ;
+}
+.width-45{
+    width: 45%;
+}
+.width-30{
+    width: 30%;
+}
+/* .. */
+/* Padding , Margin border-rad */
+.pt-5r{
+    padding-top: 5rem;
+}
+.sec-margin{
+    margin-bottom: 8rem;
+}
+.mb-1r{
+    margin-bottom: 1rem;
+}
+.mt-3r{
+    margin-top: 3.5rem;
+}
+.mtb-2r{
+    margin: 2rem 0rem;
+}
+.ptb-10 {
+    padding: 10px 0px;
+}
+.border-16{
+    border-radius: 16px;
+}
+
+/* Font */
+.fs-20 {
+    font-size: 20px;
+}
+.fs-30 {
+    font-size: 30px;
+}
+.fs-50 {
+    font-size: 50px;
+}
+.f-bold{
+    font-weight:bold ;
+}
+.fw-600{
+    font-weight:600 ;
+}
+.lat-2{
+    letter-spacing: 4px;
+}
+/* .. */
+
+/* Combo */
+.btn {
+    margin: 2rem auto;
+    display: block;
+    padding: 1rem 6rem;
+    background-color: var(--sec-color);
+    width: fit-content;
+    border-radius: 2rem;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    transition: all  0.5s;
+}
+.btn:hover{
+
+    padding: 1rem 8rem;
+    background-color: #12424b;
+    text-shadow: #ffcc00 1px 0 10px;
+}
+@media (max-width:476px){
+    .btn {
+        padding: 1rem 4rem;
+        border-radius: 1rem;
+        font-size: 12px;
+    }
+    .btn:hover{
+        transition: all 0.5s;
+        padding: 1rem 5rem;
+        background-color: #12424b;
+        text-shadow: #ffcc00 1px 0 10px;
+    }
+}
+/* .. */
+
+
