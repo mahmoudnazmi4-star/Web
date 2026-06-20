@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    margin-top: 1rem;
+}
+.d-flex {
+    display: flex;  
+    justify-content: center;
+}
+.p-rel{
+    position: relative;
+}
+.card {
+    margin-right: 1rem;
+    background-color: #f3f9fa;
+}
+.card {
+    padding: 1rem ;
+    margin-right: 1rem;
+    background-color: #f3f9fa;
+    position: relative;
+    width: 30%;
+    transition: all 1s;
+}
+.card div {
+    position: absolute;
+    top: 0;
+    right:0 ;
+    background-color: #1f8f9a;
+    width: 30px;
+    height: 30px;
+    border-bottom-left-radius: 80px 80px;
+    color: white;
+    text-align: right;
+    transition: all 1s;
+}
+.card:hover {
+    cursor: pointer;
+}
+.one:hover div {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+}
+.one h2 {
+    transition: all 1s;
+}
+.one p {
+    transition: all 1s;
+}
+.one:hover p  ,.one:hover h2  {
+    color: white;
+}
+.two:hover {
+    background-color: white;
+    box-shadow: 0px 0px 10px #969494;
+}
+.three:hover {
+    box-shadow: 0px 0px 4px #1f8f9a;
+}
+p {
+    transition: all 1s;
+}
+.three:hover p {
+    color: #1f8f9a;
+}
+.container:has(.card.three:hover) .card.two ,.container:has(.card.three:hover) .card.one{
+    opacity: 0.5;
+}
+.four {
+    margin: 3rem auto;
+    position: relative;
+}
+.four::before {
+    content: "";
+    font-family: "Font Awesome 7 Free";
+    font-weight: 900;
+    position: absolute;
+    width: 0px;
+    height: 0;
+    border-top: 75px solid #9a1f92;
+    border-right: 0px solid black;
+    border-bottom: 0px solid black;
+    border-left: 0px solid transparent;
+    right: 0;
+    top: 0;
+    transition: all 1s;
+}
+.four:hover{
+    box-shadow: 0px 0px 4px #9a1f92;
+}
+.four:hover::before {
+    border-left: 20px solid transparent;
+}
