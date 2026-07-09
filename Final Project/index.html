@@ -1,0 +1,1684 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="image/cropped-favicon-1-32x32.png" />
+    <title>Merto</title>
+    <!-- Boot Strap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"/>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"/>
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
+    <!-- Owl  -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/main.css" /> 
+  </head>
+  <body>
+    <!-- We can use id="nav" to make it fixed  -->
+    <header> 
+      <!-- responsive  -->
+      <div class="container-fluid bg-dark d-flex align-items-center justify-content-between px-4 d-none d-flex-xl d-none-l">
+        <div class="lang d-flex ">
+          <div class="dropdown me-4 position-relative ">
+            <div type="button" class="btn hov dropdown-toggle fs-14 hover-link sec-trans text-white">
+              <img src="image/english.png" alt="">
+              English
+            </div>
+            <ul class=" list-unstyled pt-5 px-2 py-0 position-absolute list">
+              <li><a class="dropdown-item px-2" href="#">
+                <img src="image/espanol.png" alt="" class="me-1">
+                Español
+              </a></li>
+              <li><a class="dropdown-item px-2" href="#">
+                <img src="image/francais.png" class="me-1" alt="">
+                Français</a></li>
+              <li><a class="dropdown-item px-2" href="#">
+                <img src="image/portugues.png" class="me-1" alt="">
+                Português</a></li>
+            </ul>
+          </div>
+          <div class="dropdown me-4 position-relative sec-trans">
+            <div type="button" class="btn hov dropdown-toggle fs-14 hover-link text-white">
+              USD
+            </div>
+            <ul class=" list-unstyled pt-5 px-2 position-absolute list">
+              <li><a class="dropdown-item px-2" href="#">EUR</a></li>
+              <li><a class="dropdown-item px-2" href="#">BRL</a></li>
+            </ul>
+          </div>
+        </div>
+          <div class="contact ">
+            <a href="" class="hover-link sec-trans text-decoration-none text-white fs-14 ">Contact us 24/7 (+92) 39427879</a>
+          </div>
+      </div>
+        <!-- main -->
+      <div class="container-fluid " > 
+        <div class="head d-flex align-items-center justify-content-between py-4  ">
+          <div class="bar d-none d-block-l">
+            <button class="btn " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i class="fa-solid fa-bars"></i></button>
+            <div class="offcanvas offcanvas-start " data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+              <div class="offcanvas-header p-0 bg-gray d-block">
+                <ul class="nav nav-pills d-flex justify-content-between" id="pills-tab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link text-black active rounded-0" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i class="fa-solid fa-bars"></i></button>
+                  </li>
+                  <li class="nav-item flex-1" role="presentation">
+                    <button class="btn nav-link text-black d-block w-100 rounded-0" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">SHOP BU CATEGORIES+</button>
+                  </li>
+                  <li class="nav-item " role="presentation">
+                    <button type="button" class="btn-close px-4 py-3" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </li>
+                </ul>
+              </div>
+              <div class="offcanvas-body">
+                <div class="tab-content" id="pills-tabContent">
+                  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                    <ul class="bar p-0">
+                      <li class="list-unstyled"><a href="" class="text-decoration-none fs-6 d-flex justify-content-between hover-link p-2 sec-trans text-black">HomePages <span>+</span></a></li>
+                      <li class="list-unstyled"><a href="" class="text-decoration-none fs-6 d-flex justify-content-between hover-link p-2 sec-trans text-black">Categrois <span>+</span></a></li>
+                      <li class="list-unstyled"><a href="" class="text-decoration-none fs-6 d-flex justify-content-between hover-link p-2 sec-trans text-black">Products <span>+</span></a></li>
+                      <li class="list-unstyled"><a href="" class="text-decoration-none fs-6 d-flex justify-content-between hover-link p-2 sec-trans text-black">Pages <span>+</span></a></li>
+                      <li class="list-unstyled"><a href="" class="text-decoration-none fs-6 d-flex justify-content-between hover-link p-2 sec-trans text-black">About us</a></li>
+                      <li class="list-unstyled"><a href="" class="text-decoration-none fs-6 d-flex justify-content-between hover-link p-2 sec-trans text-black">Blog</a></li>
+                      <li class="list-unstyled"><a href="" class="text-decoration-none fs-6 hover-link p-2 sec-trans text-black"><i class="fa-solid fa-ticket-simple"></i>Best Discount</a></li>
+                      <li class="list-unstyled"><a href="" class="text-decoration-none fs-6 d-flex justify-content-between hover-link p-2 sec-trans text-body-tertiary">Recently viewed <span>+</span></a></li>
+                      <hr>
+                      <li class="list-unstyled"><a href="" class="text-decoration-none fs-6 hover-link p-2 sec-trans text-body-tertiary"><i class="fa-regular fa-heart"></i>Whishlist (0)</a></li>
+                      <li class="list-unstyled"><a href="" class="text-decoration-none fs-6 hover-link p-2 sec-trans text-body-tertiary"><i class="fa-regular fa-user"></i>Account</a></li>
+                      <hr>
+                      <li class="list-unstyled d-inline"><a href="" class="text-decoration-none fs-6 hover-link me-2 sec-trans text-black"> <img src="image/english.png" alt="">English</a></li>
+                      <li class="list-unstyled d-inline"><a href="" class="text-decoration-none fs-6 hover-link me-2 sec-trans text-black"> <img src="image/espanol.png" alt="">Español</a></li>
+                      <li class="list-unstyled d-inline"><a href="" class="text-decoration-none fs-6 hover-link me-2 sec-trans text-black"> <img src="image/francais.png" alt="">Français</a></li>
+                      <li class="list-unstyled d-inline"><a href="" class="text-decoration-none fs-6 hover-link me-2 sec-trans text-black"> <img src="image/portugues.png" alt="">Português</a></li>
+                      <li class="list-unstyled d-inline"><a href="" class="text-decoration-none fs-6 hover-link me-2 sec-trans text-black">USD</a></li>
+                      <li class="list-unstyled d-inline"><a href="" class="text-decoration-none fs-6 hover-link me-2 sec-trans text-black">EUR</a></li>
+                      <li class="list-unstyled d-inline"><a href="" class="text-decoration-none fs-6 hover-link me-2 sec-trans text-black">BRL</a></li>
+                    </ul>
+                  </div>
+                  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                    <ul class="shop p-0">
+                      <li class="list-unstyled border-bottom "><a href="" class="text-decoration-none fs-6 d-flex justify-content-between hover-link py-3 px-2 sec-trans text-black"><span><i class="fa-solid fa-shirt me-2 text-body-tertiary"></i>Fashion</span> <span>+</span></a></li>
+                      <li class="list-unstyled border-bottom "><a href="" class="text-decoration-none fs-6 d-flex justify-content-between hover-link py-3 px-2 sec-trans text-black"><span><i class="fa-solid fa-tablet-screen-button me-2 text-body-tertiary"></i>Phone & Tablet</span> <span>+</span></a></li>
+                      <li class="list-unstyled border-bottom "><a href="" class="text-decoration-none fs-6 d-flex justify-content-between hover-link py-3 px-2 sec-trans text-black"><span><i class="fa-solid fa-laptop me-2 text-body-tertiary"></i></i>Laptop & Computer</span> <span>+</span></a></li>
+                      <li class="list-unstyled border-bottom "><a href="" class="text-decoration-none fs-6 d-flex justify-content-between hover-link py-3 px-2 sec-trans text-black"><span><i class="fa-regular fa-camera me-2 text-body-tertiary"></i>Tv ,Audio -Video</span> <span>+</span></a></li>
+                      <li class="list-unstyled border-bottom "><a href="" class="text-decoration-none fs-6 d-flex justify-content-between hover-link py-3 px-2 sec-trans text-black"><span><i class="fa-solid fa-volume-high me-2 text-body-tertiary"></i>Camera &Photo</span> <span>+</span></a></li>
+                      <li class="list-unstyled border-bottom "><a href="" class="text-decoration-none fs-6 d-flex justify-content-between hover-link py-3 px-2 sec-trans text-black"><span><i class="fa-solid fa-bed me-2 text-body-tertiary"></i>Home & Decor</span> <span>+</span></a></li>
+                      <li class="list-unstyled border-bottom "><a href="" class="text-decoration-none fs-6 d-flex justify-content-between hover-link py-3 px-2 sec-trans text-black"><span><i class="fa-solid fa-heart-circle-plus me-2 text-body-tertiary"></i>Beauty & Health</span> <span>+</span></a></li>
+                      <li class="list-unstyled border-bottom "><a href="" class="text-decoration-none fs-6 d-flex justify-content-between hover-link py-3 px-2 sec-trans text-black"><span><i class="fa-solid fa-gamepad me-2 text-body-tertiary"></i>Game Accessories</span> <span>+</span></a></li>
+                      <li class="list-unstyled border-bottom "><a href="" class="text-decoration-none fs-6 d-flex justify-content-between hover-link py-3 px-2 sec-trans text-black"><span><i class="fa-brands fa-whmcs me-2 text-body-tertiary"></i>Autopart</span> <span>+</span></a></li>
+                      <li class="list-unstyled mt-4"><a href="" class="text-decoration-none fs-6 hover-link p-2 sec-trans text-body-tertiary"><i class="fa-regular fa-heart"></i>Whishlist (0)</a></li>
+                      <li class="list-unstyled"><a href="" class="text-decoration-none fs-6 hover-link p-2 sec-trans text-body-tertiary"><i class="fa-regular fa-user"></i>Account</a></li>
+                      <hr>
+                      <li class="list-unstyled d-inline"><a href="" class="text-decoration-none fs-6 hover-link me-2 sec-trans text-black"> <img src="image/english.png" alt="">English</a></li>
+                      <li class="list-unstyled d-inline"><a href="" class="text-decoration-none fs-6 hover-link me-2 sec-trans text-black"> <img src="image/espanol.png" alt="">Español</a></li>
+                      <li class="list-unstyled d-inline"><a href="" class="text-decoration-none fs-6 hover-link me-2 sec-trans text-black"> <img src="image/francais.png" alt="">Français</a></li>
+                      <li class="list-unstyled d-inline"><a href="" class="text-decoration-none fs-6 hover-link me-2 sec-trans text-black"> <img src="image/portugues.png" alt="">Português</a></li>
+                      <li class="list-unstyled d-inline"><a href="" class="text-decoration-none fs-6 hover-link me-2 sec-trans text-black">USD</a></li>
+                      <li class="list-unstyled d-inline"><a href="" class="text-decoration-none fs-6 hover-link me-2 sec-trans text-black">EUR</a></li>
+                      <li class="list-unstyled d-inline"><a href="" class="text-decoration-none fs-6 hover-link me-2 sec-trans text-black">BRL</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="index.html" class="logo w-10 w-20-l w-15-m">
+            <img src="image/logo.png" alt="" class="w-100">
+          </a>
+          <div class="d-flex w-50 d-none-l">
+            <div class="contact d-flex align-items-center d-none-xl">
+              <i class="fa-solid fa-phone fs-1 fs-14 hover-link sec-trans"></i>
+              <a href="" class="hover-link sec-trans text-decoration-none text-black fs-14 me-4">Contact us 24/7 <br>(+92) 39427879</a>
+            </div>
+            <form action="" class="d-flex bg-gray p-1  rounded-2 ms-4 flex-1">
+              <select name="term" class="outline-0 bg-transparent ms-2 fs-14 cursor-point">
+                <option value="">All Categories</option>
+                <option value="autopart">Autopart</option>
+                <option value="accessories-automotive">&nbsp;&nbsp;&nbsp;Accessories</option>
+                <option value="car-care">&nbsp;&nbsp;&nbsp;Car Care</option>
+                <option value="car-electronics">&nbsp;&nbsp;&nbsp;Car Electronics</option>
+                <option value="equipment">&nbsp;&nbsp;&nbsp;Equipment</option>
+                <option value="lights">&nbsp;&nbsp;&nbsp;Lights</option>
+                <option value="beauty-health">Beauty &amp; Health</option><option value="bags-cases">&nbsp;&nbsp;&nbsp;Bags &amp; Cases</option><option value="bb-creams">&nbsp;&nbsp;&nbsp;BB Creams</option><option value="body-bath">&nbsp;&nbsp;&nbsp;Body &amp; Bath</option><option value="brushes-tools">&nbsp;&nbsp;&nbsp;Brushes &amp; Tools</option>
+              </select>
+              <div class="search-table bg-gray d-flex ms-4 align-items-center w-100">
+                  <input type="text" value="" name="s" placeholder="Search for products" class="outline-0 px-3 bg-transparent border-start border-gray w-100 " autocomplete="off">
+                  <i class="fa-solid fa-magnifying-glass icon-search"></i>
+              </div>
+            </form>
+          </div>
+          <div class="head-right d-flex align-items-center">
+            <div class="lang d-flex d-none-xl">
+              <div class="dropdown me-3 position-relative ">
+                <div type="button" class="hov dropdown-toggle fs-14 hover-link sec-trans">
+                  <img src="image/english.png" alt="">
+                  English
+                </div>
+                <ul class=" list-unstyled pt-5 px-2 py-0 position-absolute list">
+                  <li class="li-hov"><a class="dropdown-item px-2" href="#">
+                    <img src="image/espanol.png" alt="" class="me-1">
+                    Español
+                  </a></li>
+                  <li class="li-hov"><a class="dropdown-item px-2" href="#">
+                    <img src="image/francais.png" class="me-1" alt="">
+                    Français</a></li>
+                  <li class="li-hov"><a class="dropdown-item px-2" href="#">
+                    <img src="image/portugues.png" class="me-1" alt="">
+                    Português</a></li>
+                </ul>
+              </div>
+              <div class="dropdown me-3 position-relative sec-trans">
+                <div type="button" class="hov dropdown-toggle fs-14 hover-link">
+                  USD
+                </div>
+                <ul class=" list-unstyled pt-5 px-2 position-absolute list">
+                  <li class="li-hov"><a class="dropdown-item px-2" href="#">EUR</a></li>
+                  <li class="li-hov"><a class="dropdown-item px-2" href="#">BRL</a></li>
+                </ul>
+              </div>
+            </div>
+            <div type="button" class="user hover-link sec-trans d-none-l" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+              <i class="fa-regular fa-user fs-5"></i>
+              Account
+            </div>
+            <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog rounded-4 overflow-hidden">
+                <div class="">
+                  <img src="image/login-banner.jpg" class="w-100" alt="">
+                </div>
+                <div class="modal-content rounded-0">
+                  <div class="modal-body">
+                    <form>
+                      <h2 class="text-center">Login</h2>
+                      <div class="mb-3">
+                        <input type="text" class="form-control border-0 rounded-2 px-4 py-2 bg-gray" id="recipient-name" placeholder="User Name or email address*">
+                      </div>
+                      <div class="mb-3">
+                        <input type="password" class="form-control border-0 rounded-2 px-4 py-2 bg-gray" id="message-text" placeholder="password*">
+                      </div>
+                      <div class="d-flex">
+                        <div class="">
+                          <input type="checkbox">
+                          <label for="">Remember me</label>
+                        </div>
+                        <a href="" class="text-black">FrogetPassword?</a>
+                      </div>
+                      <input type="submit" class="w-75 px-4 py-2 m-auto d-block mt-4 bg-dark text-white  rounded-2" value="LOG IN">
+                    </form>
+                  </div>
+                  <div class="border border-top border-gray">
+                    <p class="text-body-tertiary text-center">You dont have an account yet?<a href="">Register Now</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--  -->
+            <div class="ms-3 counter position-relative">
+              <i class="fa-regular fa-heart fs-5 hover-link sec-trans"></i>
+            </div>
+            <div class="ms-3 counter position-relative">
+              
+              <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#openMarket" aria-controls="openMarket"><i class="fa-solid fa-cart-shopping fs-5 hover-link sec-trans "></i></button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="openMarket" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  ...
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Nav we used id nav to make it postion fixed when scroll -->
+      <nav class="container-fluid  head border position-relative d-none-m" id="nav">
+        <div class="links d-flex justify-content-between">
+          <div class="links-left d-flex ">
+            <div class="link">
+              <button class="btn  hover-link fs-14 fw-bold pe-4  ps-0 py-3 border-end rounded-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#openNav" aria-controls="openNav"><i class="fa-solid fa-bars me-2"></i><span class="d-none-m">SHOP BY CATEGORIS</span></button>
+              <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="openNav" aria-labelledby="offcanvasWithBothOptionsLabel">
+                <div class="offcanvas-header p-2 bg-dark d-flex">
+                  <p class="m-0 text-white "><i class="fa-solid fa-bars me-2  "></i>Shop by Categories</p>
+                </div>
+                <div class="offcanvas-body p-0">
+                  <ul class="shop p-0">
+                    <li class="list-unstyled border-bottom "><a href="fasion.html" class="text-decoration-none fs-6 d-flex justify-content-between hover-link py-3 px-2 sec-trans text-black"><span><i class="fa-solid fa-shirt me-2 text-body-tertiary"></i>Fashion</span><i class="fa-solid fa-angle-right fs-14 "></i> </a></li>
+                    <li class="list-unstyled border-bottom "><a href="" class="text-decoration-none fs-6 d-flex justify-content-between hover-link py-3 px-2 sec-trans text-black"><span><i class="fa-solid fa-tablet-screen-button me-2 text-body-tertiary"></i>Phone & Tablet</span><i class="fa-solid fa-angle-right fs-14 "></i> </a></li>
+                    <li class="list-unstyled border-bottom "><a href="" class="text-decoration-none fs-6 d-flex justify-content-between hover-link py-3 px-2 sec-trans text-black"><span><i class="fa-solid fa-laptop me-2 text-body-tertiary"></i></i>Laptop & Computer</span> <i class="fa-solid fa-angle-right fs-14 "></i></a></li>
+                    <li class="list-unstyled border-bottom "><a href="" class="text-decoration-none fs-6 d-flex justify-content-between hover-link py-3 px-2 sec-trans text-black"><span><i class="fa-regular fa-camera me-2 text-body-tertiary"></i>Tv ,Audio -Video</span> <i class="fa-solid fa-angle-right fs-14 "></i></a></li>
+                    <li class="list-unstyled border-bottom "><a href="" class="text-decoration-none fs-6 d-flex justify-content-between hover-link py-3 px-2 sec-trans text-black"><span><i class="fa-solid fa-volume-high me-2 text-body-tertiary"></i>Camera &Photo</span> <i class="fa-solid fa-angle-right fs-14 "></i></a></li>
+                    <li class="list-unstyled border-bottom "><a href="" class="text-decoration-none fs-6 d-flex justify-content-between hover-link py-3 px-2 sec-trans text-black"><span><i class="fa-solid fa-bed me-2 text-body-tertiary"></i>Home & Decor</span><i class="fa-solid fa-angle-right fs-14 "></i> </a></li>
+                    <li class="list-unstyled border-bottom "><a href="" class="text-decoration-none fs-6 d-flex justify-content-between hover-link py-3 px-2 sec-trans text-black"><span><i class="fa-solid fa-heart-circle-plus me-2 text-body-tertiary"></i>Beauty & Health</span><i class="fa-solid fa-angle-right fs-14 "></i></a></li>
+                    <li class="list-unstyled border-bottom "><a href="" class="text-decoration-none fs-6 d-flex justify-content-between hover-link py-3 px-2 sec-trans text-black"><span><i class="fa-solid fa-gamepad me-2 text-body-tertiary"></i>Game Accessories</span><i class="fa-solid fa-angle-right fs-14 "></i> </a></li>
+                    <li class="list-unstyled border-bottom "><a href="" class="text-decoration-none fs-6 d-flex justify-content-between hover-link py-3 px-2 sec-trans text-black"><span><i class="fa-brands fa-whmcs me-2 text-body-tertiary"></i>Autopart</span><i class="fa-solid fa-angle-right fs-14 "></i> </a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="link d-flex">
+              <div class="mx-3 dropdown-full py-3 ">
+                <a class="hov dropdown-toggle hover-link sec-trans d-block text-black text-decoration-none fs-14 actie-link">Homepages</a>
+                <ul class=" list-unstyled position-absolute list-full bg-gray ">
+                  <li class="shadow-hover">
+                    <a class="" href="index.html"><img src="image/mega-home-1.jpg" alt="" class="rounded-2 w-100"></a>
+                  </li>
+                  <li class="shadow-hover  rounded-2">
+                    <a class="" href="#"><img src="image/mega-home-2.jpg" alt=""  class="rounded-2 w-100"></a>
+                  </li>
+                  <li class="shadow-hover  rounded-2">
+                    <a class="" href="#"><img src="image/mega-home-3.jpg" alt="" class="rounded-2 w-100"></a>
+                  </li>
+                  <li class="shadow-hover  rounded-2">
+                    <a class="" href="#"><img src="image/mega-home-4.jpg" alt="" class="rounded-2 w-100"></a>
+                  </li>
+                  <li class="shadow-hover  rounded-2">
+                    <a class="" href="#"><img src="image/mega-home-5.jpg" alt="" class="rounded-2 w-100"></a>
+                  </li>
+                  <li class="shadow-hover  rounded-2">
+                    <a class="" href="#"><img src="image/mega-home-6.jpg" alt="" class="rounded-2 w-100"></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="mx-2 dropdown-full py-3 ">
+                <a class="hov dropdown-toggle hover-link sec-trans d-block text-black text-decoration-none  fs-14">Categories</a>
+              </div>
+              <div class="mx-2 dropdown-full py-3 ">
+                <a class="hov dropdown-toggle hover-link sec-trans d-block text-black text-decoration-none fs-14">Products</a>
+              </div>
+              <div class="mx-2 dropdown-full py-3 ">
+                <a class="hov dropdown-toggle hover-link sec-trans d-block text-black text-decoration-none fs-14">Pages</a>
+              </div>
+              <div class="mx-2 dropdown-full py-3 ">
+                <a class="hov hover-link sec-trans d-block text-black text-decoration-none fs-14">About us</a>
+              </div>
+              <div class="mx-2 dropdown-full py-3 ">
+                <a class="hov hover-link sec-trans d-block text-black text-decoration-none fs-14">Blog</a>
+              </div>
+              <div class="mx-2 dropdown-full py-3 ">
+                <a class="hov hover-link sec-trans d-block text-black text-decoration-none fs-14"><i class="fa-solid fa-ticket-simple"></i>Best Discount</a>
+              </div>
+            </div>
+          </div>
+          <div class="link-right d-none-xl">
+            <div class="mx-3 dropdown-full py-3 ">
+              <a class="hov dropdown-toggle hover-link sec-trans d-block text-black text-decoration-none  fs-14">Recently viewed</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- End Header -->
+    <!-- Start Home -->
+    <section class="home">
+      <div class="offer d-flex flex-column flex-xl-row">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide flex-1 w-100-xl" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner w-100 bg-red">
+              <div class="carousel-item active position-relative" data-bs-interval="5000">
+                <img src="image/download.jpg" class="d-block w-100 h-50-xl h-70" alt="...">
+                <div class="main-text position-absolute">
+                  <p class="text-white fs-4 fw-bold my-1">Up TO 40% off</p>
+                  <h2 class="text-white fw-bold">Body Lotion <br>SPF LAB 50+ </h2>
+                  <p class="text-white fs-1">Pa++++</p>
+                  <a href="" class="btn  btn-outline-light  py-3 px-4 fs-14 fw-bold">SHOPE NOW</a>
+                </div>
+              </div>
+              <div class="carousel-item position-relative" data-bs-interval="5000">
+                <img src="image/download.png" class="d-block w-100 h-50-xl h-70" alt="...">
+                <div class="main-text position-absolute">
+                  <p class="text-white fs-4 fw-bold my-1">Up TO 40% off</p>
+                  <h2 class="text-white fw-bold">Body Lotion <br>SPF LAB 50+ </h2>
+                  <p class="text-white fs-1">Pa++++</p>
+                  <a href="" class="btn btn-outline-light  py-3  px-4 fs-14 fw-bold">SHOPE NOW</a>
+                </div>
+              </div>
+              <div class="carousel-item position-relative" data-bs-interval="5000">
+                <img src="https://demo.theme-sky.com/merto/wp-content/uploads/2024/09/slide1-demo1.jpg" class="d-block w-100 h-50-xl h-70" alt="...">
+                <div class="main-text position-absolute">
+                  <p class="text-white fs-4 fw-bold my-1">Up TO 40% off</p>
+                  <h2 class="text-white fw-bold">Body Lotion <br>SPF LAB 50+ </h2>
+                  <p class="text-white fs-1">Pa++++</p>
+                  <a href="" class="btn btn-outline-light py-3 px-4 fs-14 fw-bold">SHOPE NOW</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="boxs w-40 w-100-xl">
+            <div class="box position-relative overflow-hidden w-100 h-35">
+              <div class="background">
+                <img src="image/banner1-mobile-demo1.jpg" class="d-block w-100" alt="">
+              </div>
+              <div class="home-text position-absolute">
+                <p class="fs-14 fw-bold my-1">BLACK FRIDAY</p>
+                <h2 class="fs-2 fw-bold">Big Sale <br> Eyeshadow</h2>
+                <p>Over +100 items</p>
+                <a href="" class="btn  btn-outline-dark fs-14 fw-bold">SHOPE NOW</a>
+              </div>
+            </div>
+            <div class="box position-relative overflow-hidden h-35 h-100-l">
+              <div class="background ">
+                <img src="image/banner2-demo1.jpg" class="d-block w-100" alt="">
+              </div>
+              <div class="home-text position-absolute">
+                <p class="fs-14 fw-bold my-1">NEW COLLECTION</p>
+                <h2 class="fs-2 fw-bold">Puffer Jacket <br> 30% off</h2>
+                <p>Best jacket in year</p>
+                <a href="" class="btn  btn-outline-dark fs-14 fw-bold">SHOPE NOW</a>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="container d-flex justify-content-center mt-5 flex-wrap gap-10">
+        <div class="more d-flex align-items-center px-4   border-end border-none-xl li-icon">
+          <i class="fa-solid fa-truck-moving fs-2 me-4 text-body-tertiary"></i>
+          <div class="info">
+            <p class=" mb-0 fw-bold">Fast, Free Shipping</p>
+            <span class="text-body-tertiary mb-0">On order over $50</span>
+          </div>
+        </div>
+        <div class="more d-flex align-items-center px-4   border-end border-none-xl li-icon">
+          <i class="fa-regular fa-clock fs-2  me-4 text-body-tertiary"></i>
+          <div class="info">
+            <p class=" mb-0 fw-bold">Next Day Delivery</p>
+            <span class="text-body-tertiary mb-0">Free– spend over $99</span>
+          </div>
+        </div>
+        <div class="more d-flex align-items-center px-4   border-end border-none-xl li-icon">
+          <i class="fa-solid fa-percent fs-2  me-4 text-body-tertiary"></i>
+          <div class="info">
+            <p class=" mb-0 fw-bold">Low Price Guarantee</p>
+            <span class="text-body-tertiary mb-0">We offer competitive prices</span>
+          </div>
+        </div>
+        <div class="more d-flex align-items-center px-4   border-end border-none-xl li-icon">
+          <i class="fa-regular fa-thumbs-up fs-2  me-4 text-body-tertiary"></i>
+          <div class="info">
+            <p class=" mb-0 fw-bold">Quality Guarantee</p>
+            <span class="text-body-tertiary mb-0">We Guarantee Our Products</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Home -->
+    <!-- Start pro-ca -->
+    <section class="pro-ca m-section">
+      <div class="container">
+        <div class="owl-carousel" id="owl-1">
+          <div class=""> 
+            <a href="hodie.html" class="card-pro rounded-0 position-relative border-0 text-black text-decoration-none text-center">
+              <div class="d-block rounded-pill border-0 w-100 overflow-hidden img-overlay position-relative">
+                <img src="image/cat-1.jpg" class="" alt="...">
+              </div>
+              <p class="card-body mt-3">SmartPhone</p>
+            </a>
+          </div>
+          <div class=""> 
+            <a href="hodie.html" class="card-pro rounded-0 position-relative border-0 text-black text-decoration-none text-center">
+              <div class="d-block rounded-pill border-0 w-100 overflow-hidden img-overlay position-relative">
+                <img src="image/cat-2.jpg" class="" alt="...">
+              </div>
+              <p class="card-body mt-3">Home & Decor</p>
+            </a>
+          </div>
+          <div class=""> 
+            <a href="hodie.html" class="card-pro rounded-0 position-relative border-0 text-black text-decoration-none text-center">
+              <div class="d-block rounded-pill border-0 w-100 overflow-hidden img-overlay position-relative">
+                <img src="image/cosmetic-cat-7.jpg" class="" alt="...">
+              </div>
+              <p class="card-body mt-3">Makeup</p>
+            </a>
+          </div>
+          <div class=""> 
+            <a href="hodie.html" class="card-pro rounded-0 position-relative border-0 text-black text-decoration-none text-center">
+              <div class="d-block rounded-pill border-0 w-100 overflow-hidden img-overlay position-relative">
+                <img src="image/cat-4.jpg" class="" alt="...">
+              </div>
+              <p class="card-body mt-3">Autopart</p>
+            </a>
+          </div>
+          <div class=""> 
+            <a href="hodie.html" class="card-pro rounded-0 position-relative border-0 text-black text-decoration-none text-center">
+              <div class="d-block rounded-pill border-0 w-100 overflow-hidden img-overlay position-relative">
+                <img src="image/lap.jpg" class="" alt="...">
+              </div>
+              <p class="card-body mt-3">Laptop & Computer</p>
+            </a>
+          </div>
+          <div class=""> 
+            <a href="hodie.html" class="card-pro rounded-0 position-relative border-0 text-black text-decoration-none text-center">
+              <div class="d-block rounded-pill border-0 w-100 overflow-hidden img-overlay position-relative">
+                <img src="image/tt.jpg" class="" alt="...">
+              </div>
+              <p class="card-body mt-3">Fasion</p>
+            </a>
+          </div>
+          <div class=""> 
+            <a href="hodie.html" class="card-pro rounded-0 position-relative border-0 text-black text-decoration-none text-center">
+              <div class="d-block rounded-pill border-0 w-100 overflow-hidden img-overlay position-relative">
+                <img src="image/head.jpg" class="" alt="...">
+              </div>
+              <p class="card-body mt-3">Headphones</p>
+            </a>
+          </div>
+          <div class=""> 
+            <a href="hodie.html" class="card-pro rounded-0 position-relative border-0 text-black text-decoration-none text-center">
+              <div class="d-block rounded-pill border-0 w-100 overflow-hidden img-overlay position-relative">
+                <img src="image/bag.jpg" class="" alt="...">
+              </div>
+              <p class="card-body mt-3">HandBags</p>
+            </a>
+          </div>
+      </div>
+    </section>
+    <!-- End pro-ca -->
+    <!-- Start Flash Deals -->
+    <section class="Flash mt-5">
+      <div class="container">
+        <div class="head-section d-flex justify-content-between flex-wrap mb-4">
+          <h2 class="fw-bold">New arrivals</h2>
+          <div class="d-flex align-items-center">
+            <div class="time">
+              <span class="text-body-tertiary fs-14">Ends in :</span>
+              <span class="time-fun p-2 rounded-pill bg-black text-white" id="hours">12</span>
+              <span>:</span>
+              <span class="time-fun p-2 rounded-pill bg-black text-white" id="min">12</span>
+              <span>:</span>
+              <span class="time-fun p-2 rounded-pill bg-black text-white" id="sec">12</span>
+            </div>
+            <a href="" class="d-block ms-4 border-start ps-4 text-black text-decoration-none hover-link d-none-m">See All Products</a>
+          </div>
+        </div>
+        <div class="owl-carousel width-100" id="owl-2">
+          <div> 
+            <!-- Doc Nouran -->
+            <!--  I know must be div here for Discount to get Data From databais  but Im making it With Before &After -->
+            <div class="card rounded-0 position-relative">
+              <div class="position-absolute end-0 card-slid mt-3 me-2">
+                <button class="btn btn-outline-dark bg-gray border-0 d-block px-2 py-1"><i class="fa-regular fa-heart fs-14"></i></button>
+                <button class="btn btn-outline-dark bg-gray border-0 d-block mt-1 px-2 py-1"><i class="fa-solid fa-arrow-right-arrow-left fs-14"></i></button>
+                <button class="btn btn-outline-dark bg-gray border-0 d-block mt-1 px-2 py-1"><i class="fa-solid fa-magnifying-glass fs-14"></i></button>
+                <button class="btn btn-outline-dark bg-gray border-0 d-block mt-1 px-2 py-1"><i class="fa-solid fa-cart-shopping fs-14"></i></button>
+              </div>
+              <a href="">
+                <img src="image/electronic-30-6-300x300.jpg" class="card-img-top d-block" alt="...">
+              </a>
+              <div class="card-body">
+                <a href="" class="text-black text-decoration-none fs-14 hover-link">Laptop Asus Vivobook I5 1355U, 8GB RAM, 512GB SSD</a>
+                <p class="card-text">$999. <span class="text-decoration-line-through fs-14 text-body-tertiary">$1,536</span> </p>
+                <div class="card-text stars fs-14 ">
+                  <i class="fa-solid fa-star fs-14 "></i>
+                  <i class="fa-solid fa-star fs-14 "></i>
+                  <i class="fa-solid fa-star fs-14 "></i>
+                  <i class="fa-solid fa-star fs-14 "></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div> 
+            <div class="card rounded-0 position-relative">
+              <div class="position-absolute end-0 card-slid mt-3 me-2">
+                <button class="btn btn-outline-dark bg-gray border-0 d-block px-2 py-1"><i class="fa-regular fa-heart fs-14"></i></button>
+                <button class="btn btn-outline-dark bg-gray border-0 d-block mt-1 px-2 py-1"><i class="fa-solid fa-arrow-right-arrow-left fs-14"></i></button>
+                <button class="btn btn-outline-dark bg-gray border-0 d-block mt-1 px-2 py-1"><i class="fa-solid fa-magnifying-glass fs-14"></i></button>
+                <button class="btn btn-outline-dark bg-gray border-0 d-block mt-1 px-2 py-1"><i class="fa-solid fa-cart-shopping fs-14"></i></button>
+              </div>
+              <a href="">
+                <img src="image/electronic-14-2-300x300.jpg" class="card-img-top d-block" alt="...">
+              </a>
+              <div class="card-body">
+                <a href="hodie.html" class="text-black text-decoration-none fs-14 hover-link">Laptop Asus Vivobook I5 1355U, 8GB RAM, 512GB SSD</a>
+                <p class="card-text">$999. <span class="text-decoration-line-through fs-14 text-body-tertiary">$1,536</span> </p>
+                <div class="card-text stars fs-14 ">
+                  <i class="fa-solid fa-star fs-14 "></i>
+                  <i class="fa-solid fa-star fs-14 "></i>
+                  <i class="fa-solid fa-star fs-14 "></i>
+                  <i class="fa-solid fa-star fs-14 "></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div> 
+            <div class="card rounded-0 position-relative">
+              <div class="position-absolute end-0 card-slid mt-3 me-2">
+                <button class="btn btn-outline-dark bg-gray border-0 d-block px-2 py-1"><i class="fa-regular fa-heart fs-14"></i></button>
+                <button class="btn btn-outline-dark bg-gray border-0 d-block mt-1 px-2 py-1"><i class="fa-solid fa-arrow-right-arrow-left fs-14"></i></button>
+                <button class="btn btn-outline-dark bg-gray border-0 d-block mt-1 px-2 py-1"><i class="fa-solid fa-magnifying-glass fs-14"></i></button>
+                <button class="btn btn-outline-dark bg-gray border-0 d-block mt-1 px-2 py-1"><i class="fa-solid fa-cart-shopping fs-14"></i></button>
+              </div>
+              <a href="">
+                <img src="image/automotive-11-300x300.jpg" class="card-img-top d-block" alt="...">
+              </a>
+              <div class="card-body">
+                <a href="hodie.html" class="text-black text-decoration-none fs-14 hover-link">Laptop Asus Vivobook I5 1355U, 8GB RAM, 512GB SSD</a>
+                <p class="card-text">$999. <span class="text-decoration-line-through fs-14 text-body-tertiary">$1,536</span> </p>
+                <div class="card-text stars fs-14 ">
+                  <i class="fa-solid fa-star fs-14 "></i>
+                  <i class="fa-solid fa-star fs-14 "></i>
+                  <i class="fa-solid fa-star fs-14 "></i>
+                  <i class="fa-solid fa-star fs-14 "></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div> 
+            <div class="card rounded-0 position-relative">
+              <div class="position-absolute end-0 card-slid mt-3 me-2">
+                <button class="btn btn-outline-dark bg-gray border-0 d-block px-2 py-1"><i class="fa-regular fa-heart fs-14"></i></button>
+                <button class="btn btn-outline-dark bg-gray border-0 d-block mt-1 px-2 py-1"><i class="fa-solid fa-arrow-right-arrow-left fs-14"></i></button>
+                <button class="btn btn-outline-dark bg-gray border-0 d-block mt-1 px-2 py-1"><i class="fa-solid fa-magnifying-glass fs-14"></i></button>
+                <button class="btn btn-outline-dark bg-gray border-0 d-block mt-1 px-2 py-1"><i class="fa-solid fa-cart-shopping fs-14"></i></button>
+              </div>
+              <a href="hodie.html">
+                <img src="image/furniture-6-300x300.jpg" class="card-img-top d-block" alt="...">
+              </a>
+              <div class="card-body">
+                <a href="" class="text-black text-decoration-none fs-14 hover-link">Laptop Asus Vivobook I5 1355U, 8GB RAM, 512GB SSD</a>
+                <p class="card-text">$999. <span class="text-decoration-line-through fs-14 text-body-tertiary">$1,536</span> </p>
+                <div class="card-text stars fs-14 ">
+                  <i class="fa-solid fa-star fs-14 "></i>
+                  <i class="fa-solid fa-star fs-14 "></i>
+                  <i class="fa-solid fa-star fs-14 "></i>
+                  <i class="fa-solid fa-star fs-14 "></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div> 
+            <div class="card rounded-0 position-relative">
+              <div class="position-absolute end-0 card-slid mt-3 me-2">
+                <button class="btn btn-outline-dark bg-gray border-0 d-block px-2 py-1"><i class="fa-regular fa-heart fs-14"></i></button>
+                <button class="btn btn-outline-dark bg-gray border-0 d-block mt-1 px-2 py-1"><i class="fa-solid fa-arrow-right-arrow-left fs-14"></i></button>
+                <button class="btn btn-outline-dark bg-gray border-0 d-block mt-1 px-2 py-1"><i class="fa-solid fa-magnifying-glass fs-14"></i></button>
+                <button class="btn btn-outline-dark bg-gray border-0 d-block mt-1 px-2 py-1"><i class="fa-solid fa-cart-shopping fs-14"></i></button>
+              </div>
+              <a href="hodie.html">
+                <img src="image/cosmetics-33-300x300.jpg" class="card-img-top d-block" alt="...">
+              </a>
+              <div class="card-body">
+                <a href="" class="text-black text-decoration-none fs-14 hover-link">Laptop Asus Vivobook I5 1355U, 8GB RAM, 512GB SSD</a>
+                <p class="card-text">$999. <span class="text-decoration-line-through fs-14 text-body-tertiary">$1,536</span> </p>
+                <div class="card-text stars fs-14 ">
+                  <i class="fa-solid fa-star fs-14 "></i>
+                  <i class="fa-solid fa-star fs-14 "></i>
+                  <i class="fa-solid fa-star fs-14 "></i>
+                  <i class="fa-solid fa-star fs-14 "></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div> 
+            <div class="card rounded-0 position-relative">
+              <div class="position-absolute end-0 card-slid mt-3 me-2">
+                <button class="btn btn-outline-dark bg-gray border-0 d-block px-2 py-1"><i class="fa-regular fa-heart fs-14"></i></button>
+                <button class="btn btn-outline-dark bg-gray border-0 d-block mt-1 px-2 py-1"><i class="fa-solid fa-arrow-right-arrow-left fs-14"></i></button>
+                <button class="btn btn-outline-dark bg-gray border-0 d-block mt-1 px-2 py-1"><i class="fa-solid fa-magnifying-glass fs-14"></i></button>
+                <button class="btn btn-outline-dark bg-gray border-0 d-block mt-1 px-2 py-1"><i class="fa-solid fa-cart-shopping fs-14"></i></button>
+              </div>
+              <a href="">
+                <img src="image/cosmetics-40-1-300x300.jpg" class="card-img-top d-block" alt="...">
+              </a>
+              <div class="card-body">
+                <a href="" class="text-black text-decoration-none fs-14 hover-link">Laptop Asus Vivobook I5 1355U, 8GB RAM, 512GB SSD</a>
+                <p class="card-text">$999. <span class="text-decoration-line-through fs-14 text-body-tertiary">$1,536</span> </p>
+                <div class="card-text stars fs-14 ">
+                  <i class="fa-solid fa-star fs-14 "></i>
+                  <i class="fa-solid fa-star fs-14 "></i>
+                  <i class="fa-solid fa-star fs-14 "></i>
+                  <i class="fa-solid fa-star fs-14 "></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div> 
+            <div class="card rounded-0 position-relative">
+              <div class="position-absolute end-0 card-slid mt-3 me-2">
+                <button class="btn btn-outline-dark bg-gray border-0 d-block px-2 py-1"><i class="fa-regular fa-heart fs-14"></i></button>
+                <button class="btn btn-outline-dark bg-gray border-0 d-block mt-1 px-2 py-1"><i class="fa-solid fa-arrow-right-arrow-left fs-14"></i></button>
+                <button class="btn btn-outline-dark bg-gray border-0 d-block mt-1 px-2 py-1"><i class="fa-solid fa-magnifying-glass fs-14"></i></button>
+                <button class="btn btn-outline-dark bg-gray border-0 d-block mt-1 px-2 py-1"><i class="fa-solid fa-cart-shopping fs-14"></i></button>
+              </div>
+              <a href="">
+                <img src="image/fashion-10-1-300x300.jpg" class="card-img-top d-block" alt="...">
+              </a>
+              <div class="card-body">
+                <a href="" class="text-black text-decoration-none fs-14 hover-link">Laptop Asus Vivobook I5 1355U, 8GB RAM, 512GB SSD</a>
+                <p class="card-text">$999. <span class="text-decoration-line-through fs-14 text-body-tertiary">$1,536</span> </p>
+                <div class="card-text stars fs-14 ">
+                  <i class="fa-solid fa-star fs-14 "></i>
+                  <i class="fa-solid fa-star fs-14 "></i>
+                  <i class="fa-solid fa-star fs-14 "></i>
+                  <i class="fa-solid fa-star fs-14 "></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div> 
+            <div class="card rounded-0 position-relative">
+              <div class="position-absolute end-0 card-slid mt-3 me-2">
+                <button class="btn btn-outline-dark bg-gray border-0 d-block px-2 py-1"><i class="fa-regular fa-heart fs-14"></i></button>
+                <button class="btn btn-outline-dark bg-gray border-0 d-block mt-1 px-2 py-1"><i class="fa-solid fa-arrow-right-arrow-left fs-14"></i></button>
+                <button class="btn btn-outline-dark bg-gray border-0 d-block mt-1 px-2 py-1"><i class="fa-solid fa-magnifying-glass fs-14"></i></button>
+                <button class="btn btn-outline-dark bg-gray border-0 d-block mt-1 px-2 py-1"><i class="fa-solid fa-cart-shopping fs-14"></i></button>
+              </div>
+              <a href="">
+                <img src="image/cosmetic-2-300x300.jpg" class="card-img-top d-block" alt="...">
+              </a>
+              <div class="card-body">
+                <a href="" class="text-black text-decoration-none fs-14 hover-link">Laptop Asus Vivobook I5 1355U, 8GB RAM, 512GB SSD</a>
+                <p class="card-text">$999. <span class="text-decoration-line-through fs-14 text-body-tertiary">$1,536</span> </p>
+                <div class="card-text stars fs-14 ">
+                  <i class="fa-solid fa-star fs-14 "></i>
+                  <i class="fa-solid fa-star fs-14 "></i>
+                  <i class="fa-solid fa-star fs-14 "></i>
+                  <i class="fa-solid fa-star fs-14 "></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+    <!-- End Flash Deals -->
+    <!-- Start New collection -->
+    <section class="new mt-5 ">
+      <div class="container">
+        <div class="new-items d-flex gap-10 flex-column flex-md-row ">
+          <a href="" class="card box text-white border-0 w-100-xl d-block ">
+            <div class="image overflow-hidden rounded-2">
+              <img src="image/car.jpg" class="rounded-2 d-block w-100-xl"alt="...">
+            </div>
+            <div class="card-img-overlay ">
+              <h3 class="card-title w-75 card1 bottom-0 text-center">SALE 10% OFF TIRES MICHELIN</h3>
+            </div>
+          </a>
+          <a href="" class="card box text-white  border-0 w-100-xl d-block">
+            <div class="image overflow-hidden">
+              <img src="image/set.jpg" class="rounded-2 d-block w-100-xl"alt="...">
+            </div>
+            <div class="card-img-overlay rounded-2 text-center p-4">
+              <p class="text-warning w-100 d-block text-center">NEW COLLECTION</p>
+              <h2 class=" text-black w-100 d-block">Sofa Crafted in UK</h2>
+              <span class="text-black">Shop now <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+          </a>
+          <a href="" class="card box text-white  border-0 w-100-xl d-block">
+            <div class="image overflow-hidden rounded-2">
+              <img src="image/cream.jpg" class="rounded-2 d-block w-100-xl" alt="...">
+            </div>
+            <div class="card-img-overlay">
+              <h2 class="card-title card1 bottom-0 w-100 d-block text-center">Steals under $25</h2>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- End New collection -->
+    <!-- Start arrivals -->
+    <section class="arrivals p-section ">
+      <div class="container">
+        <div class="head-section d-flex justify-content-between flex-wrap">
+          <h2 class="fw-bold">New arrivals</h2>
+          <nav class="d-flex align-items-center">
+            <div class="nav  nav-tabs" id="nav-tab" role="tablist">
+              <button class="nav-link text-black active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Fashion</button>
+              <button class="nav-link text-black" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Phone & Tablet</button>
+              <button class="nav-link text-black" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Home & Decor</button>
+              <button class="nav-link text-black" id="nav-disabled-tab" data-bs-toggle="tab" data-bs-target="#nav-disabled" type="button" role="tab" aria-controls="nav-disabled" aria-selected="false" >Beauty & Health</button>
+            </div>
+            <a href="" class="d-block ms-4 border-start ps-4 text-black text-decoration-none hover-link d-none-m">See All Products</a>
+          </nav>
+        </div>
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active " id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+            <div class="all mt-4 d-flex flex-wrap flex-column flex-xl-row align-items-center justify-content-center">
+              <a href="" class="card border p-3 text-decoration-none border-top-left w-30  w-100-xl" style="max-width: 440px;">
+                <div class="full-body">
+                  <div class="row g-0 align-items-center position-relative">
+                    <div class="col-md-5 z-100">
+                      <img src="image/fashion-5-700x700.jpg" class="w-100" alt="...">
+                    </div>
+                    <div class="col-md-7 ">
+                      <div class="card-body z-100 position-relative">
+                        <h5 class=" fs-14">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h5>
+                        <p class="card-text mb-0">148$</p>
+                        <div class="card-text stars fs-14 ">
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star-half fs-14 "></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <form action="" class="d-flex gap-10 card-btn z-100 ">
+                    <button class="btn btn-outline-dark flex-1 bg-gray border-0">+ ADD TO CART</button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-regular fa-heart"></i></button>
+                  </form>
+                </div>
+              </a>
+              <a href="" class="card border p-3 text-decoration-none rounded-0 w-30 w-100-xl" style="max-width: 440px;">
+                <div class="full-body">
+                  <div class="row g-0 align-items-center position-relative">
+                    <div class="col-md-5 z-100">
+                      <img src="image/fashion-9-300x300.jpg" class="w-100" alt="...">
+                    </div>
+                    <div class="col-md-7 ">
+                      <div class="card-body z-100 position-relative">
+                        <h5 class=" fs-14">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h5>
+                        <p class="card-text mb-0">148$</p>
+                        <div class="card-text stars fs-14 ">
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star-half fs-14 "></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <form action="" class="d-flex gap-10 card-btn z-100 ">
+                    <button class="btn btn-outline-dark flex-1 bg-gray border-0">+ ADD TO CART</button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-regular fa-heart"></i></button>
+                  </form>
+                </div>
+              </a>
+              <a href="" class="card border p-3 text-decoration-none border-top-right w-30  w-100-xl" style="max-width: 440px;">
+                <div class="full-body">
+                  <div class="row g-0 align-items-center position-relative">
+                    <div class="col-md-5 z-100">
+                      <img src="image/fashion-6-300x300.jpg" class="w-100" alt="...">
+                    </div>
+                    <div class="col-md-7 ">
+                      <div class="card-body z-100 position-relative">
+                        <h5 class=" fs-14">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h5>
+                        <p class="card-text mb-0">148$</p>
+                        <div class="card-text stars fs-14 ">
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star-half fs-14 "></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <form action="" class="d-flex gap-10 card-btn z-100 ">
+                    <button class="btn btn-outline-dark flex-1 bg-gray border-0">+ ADD TO CART</button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-regular fa-heart"></i></button>
+                  </form>
+                </div>
+              </a>
+              <a href="" class="card  p-3 text-decoration-none border-bottom-left border-top-0 w-30 w-100-xl"  style="max-width: 440px;">
+                <div class="full-body">
+                  <div class="row g-0 align-items-center position-relative">
+                    <div class="col-md-5 z-100">
+                      <img src="image/fashion-16-300x300.jpg" class="w-100" alt="...">
+                    </div>
+                    <div class="col-md-7 ">
+                      <div class="card-body z-100 position-relative">
+                        <h5 class=" fs-14">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h5>
+                        <p class="card-text mb-0">148$</p>
+                        <div class="card-text stars fs-14 ">
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star-half fs-14 "></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <form action="" class="d-flex gap-10 card-btn z-100 ">
+                    <button class="btn btn-outline-dark flex-1 bg-gray border-0">+ ADD TO CART</button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-regular fa-heart"></i></button>
+                  </form>
+                </div>
+              </a>
+              <a href="" class="card  p-3 text-decoration-none rounded-0 border-top-0 w-30  w-100-xl" style="max-width: 440px;">
+                <div class="full-body">
+                  <div class="row g-0 align-items-center position-relative">
+                    <div class="col-md-5 z-100">
+                      <img src="image/fashion-1-300x300.jpg" class="w-100" alt="...">
+                    </div>
+                    <div class="col-md-7 ">
+                      <div class="card-body z-100 position-relative">
+                        <h5 class=" fs-14">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h5>
+                        <p class="card-text mb-0">148$</p>
+                        <div class="card-text stars fs-14 ">
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star-half fs-14 "></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <form action="" class="d-flex gap-10 card-btn z-100 ">
+                    <button class="btn btn-outline-dark flex-1 bg-gray border-0">+ ADD TO CART</button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-regular fa-heart"></i></button>
+                  </form>
+                </div>
+              </a>
+              <a href="" class="card  p-3 text-decoration-none border-bottom-right border-top-0 w-30 w-100-xl " style="max-width: 440px;">
+                <div class="full-body">
+                  <div class="row g-0 align-items-center position-relative">
+                    <div class="col-md-5 z-100">
+                      <img src="image/fashion-3-300x300.jpg" class="w-100" alt="...">
+                    </div>
+                    <div class="col-md-7 ">
+                      <div class="card-body z-100 position-relative">
+                        <h5 class=" fs-14">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h5>
+                        <p class="card-text mb-0">148$</p>
+                        <div class="card-text stars fs-14 ">
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star-half fs-14 "></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <form action="" class="d-flex gap-10 card-btn z-100 ">
+                    <button class="btn btn-outline-dark flex-1 bg-gray border-0">+ ADD TO CART</button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-regular fa-heart"></i></button>
+                  </form>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+            <div class="all mt-4 d-flex flex-wrap flex-column flex-xl-row align-items-center justify-content-center">
+              <a href="" class="card border p-3 text-decoration-none border-top-left w-30  w-100-xl" style="max-width: 440px;">
+                <div class="full-body">
+                  <div class="row g-0 align-items-center position-relative">
+                    <div class="col-md-5 z-100">
+                      <img src="image/fashion-5-700x700.jpg" class="w-100" alt="...">
+                    </div>
+                    <div class="col-md-7 ">
+                      <div class="card-body z-100 position-relative">
+                        <h5 class=" fs-14">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h5>
+                        <p class="card-text mb-0">148$</p>
+                        <div class="card-text stars fs-14 ">
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star-half fs-14 "></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <form action="" class="d-flex gap-10 card-btn z-100 ">
+                    <button class="btn btn-outline-dark flex-1 bg-gray border-0">+ ADD TO CART</button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-regular fa-heart"></i></button>
+                  </form>
+                </div>
+              </a>
+              <a href="" class="card border p-3 text-decoration-none rounded-0 w-30 w-100-xl" style="max-width: 440px;">
+                <div class="full-body">
+                  <div class="row g-0 align-items-center position-relative">
+                    <div class="col-md-5 z-100">
+                      <img src="image/fashion-9-300x300.jpg" class="w-100" alt="...">
+                    </div>
+                    <div class="col-md-7 ">
+                      <div class="card-body z-100 position-relative">
+                        <h5 class=" fs-14">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h5>
+                        <p class="card-text mb-0">148$</p>
+                        <div class="card-text stars fs-14 ">
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star-half fs-14 "></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <form action="" class="d-flex gap-10 card-btn z-100 ">
+                    <button class="btn btn-outline-dark flex-1 bg-gray border-0">+ ADD TO CART</button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-regular fa-heart"></i></button>
+                  </form>
+                </div>
+              </a>
+              <a href="" class="card border p-3 text-decoration-none border-top-right w-30  w-100-xl" style="max-width: 440px;">
+                <div class="full-body">
+                  <div class="row g-0 align-items-center position-relative">
+                    <div class="col-md-5 z-100">
+                      <img src="image/fashion-6-300x300.jpg" class="w-100" alt="...">
+                    </div>
+                    <div class="col-md-7 ">
+                      <div class="card-body z-100 position-relative">
+                        <h5 class=" fs-14">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h5>
+                        <p class="card-text mb-0">148$</p>
+                        <div class="card-text stars fs-14 ">
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star-half fs-14 "></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <form action="" class="d-flex gap-10 card-btn z-100 ">
+                    <button class="btn btn-outline-dark flex-1 bg-gray border-0">+ ADD TO CART</button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-regular fa-heart"></i></button>
+                  </form>
+                </div>
+              </a>
+              <a href="" class="card  p-3 text-decoration-none border-bottom-left border-top-0 w-30 w-100-xl"  style="max-width: 440px;">
+                <div class="full-body">
+                  <div class="row g-0 align-items-center position-relative">
+                    <div class="col-md-5 z-100">
+                      <img src="image/fashion-16-300x300.jpg" class="w-100" alt="...">
+                    </div>
+                    <div class="col-md-7 ">
+                      <div class="card-body z-100 position-relative">
+                        <h5 class=" fs-14">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h5>
+                        <p class="card-text mb-0">148$</p>
+                        <div class="card-text stars fs-14 ">
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star-half fs-14 "></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <form action="" class="d-flex gap-10 card-btn z-100 ">
+                    <button class="btn btn-outline-dark flex-1 bg-gray border-0">+ ADD TO CART</button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-regular fa-heart"></i></button>
+                  </form>
+                </div>
+              </a>
+              <a href="" class="card  p-3 text-decoration-none rounded-0 border-top-0 w-30  w-100-xl" style="max-width: 440px;">
+                <div class="full-body">
+                  <div class="row g-0 align-items-center position-relative">
+                    <div class="col-md-5 z-100">
+                      <img src="image/fashion-1-300x300.jpg" class="w-100" alt="...">
+                    </div>
+                    <div class="col-md-7 ">
+                      <div class="card-body z-100 position-relative">
+                        <h5 class=" fs-14">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h5>
+                        <p class="card-text mb-0">148$</p>
+                        <div class="card-text stars fs-14 ">
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star-half fs-14 "></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <form action="" class="d-flex gap-10 card-btn z-100 ">
+                    <button class="btn btn-outline-dark flex-1 bg-gray border-0">+ ADD TO CART</button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-regular fa-heart"></i></button>
+                  </form>
+                </div>
+              </a>
+              <a href="" class="card  p-3 text-decoration-none border-bottom-right border-top-0 w-30 w-100-xl " style="max-width: 440px;">
+                <div class="full-body">
+                  <div class="row g-0 align-items-center position-relative">
+                    <div class="col-md-5 z-100">
+                      <img src="image/fashion-3-300x300.jpg" class="w-100" alt="...">
+                    </div>
+                    <div class="col-md-7 ">
+                      <div class="card-body z-100 position-relative">
+                        <h5 class=" fs-14">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h5>
+                        <p class="card-text mb-0">148$</p>
+                        <div class="card-text stars fs-14 ">
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star-half fs-14 "></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <form action="" class="d-flex gap-10 card-btn z-100 ">
+                    <button class="btn btn-outline-dark flex-1 bg-gray border-0">+ ADD TO CART</button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-regular fa-heart"></i></button>
+                  </form>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+            <div class="all mt-4 d-flex flex-wrap flex-column flex-xl-row align-items-center justify-content-center">
+              <a href="" class="card border p-3 text-decoration-none border-top-left w-30  w-100-xl" style="max-width: 440px;">
+                <div class="full-body">
+                  <div class="row g-0 align-items-center position-relative">
+                    <div class="col-md-5 z-100">
+                      <img src="image/fashion-5-700x700.jpg" class="w-100" alt="...">
+                    </div>
+                    <div class="col-md-7 ">
+                      <div class="card-body z-100 position-relative">
+                        <h5 class=" fs-14">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h5>
+                        <p class="card-text mb-0">148$</p>
+                        <div class="card-text stars fs-14 ">
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star-half fs-14 "></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <form action="" class="d-flex gap-10 card-btn z-100 ">
+                    <button class="btn btn-outline-dark flex-1 bg-gray border-0">+ ADD TO CART</button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-regular fa-heart"></i></button>
+                  </form>
+                </div>
+              </a>
+              <a href="" class="card border p-3 text-decoration-none rounded-0 w-30 w-100-xl" style="max-width: 440px;">
+                <div class="full-body">
+                  <div class="row g-0 align-items-center position-relative">
+                    <div class="col-md-5 z-100">
+                      <img src="image/fashion-9-300x300.jpg" class="w-100" alt="...">
+                    </div>
+                    <div class="col-md-7 ">
+                      <div class="card-body z-100 position-relative">
+                        <h5 class=" fs-14">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h5>
+                        <p class="card-text mb-0">148$</p>
+                        <div class="card-text stars fs-14 ">
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star-half fs-14 "></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <form action="" class="d-flex gap-10 card-btn z-100 ">
+                    <button class="btn btn-outline-dark flex-1 bg-gray border-0">+ ADD TO CART</button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-regular fa-heart"></i></button>
+                  </form>
+                </div>
+              </a>
+              <a href="" class="card border p-3 text-decoration-none border-top-right w-30  w-100-xl" style="max-width: 440px;">
+                <div class="full-body">
+                  <div class="row g-0 align-items-center position-relative">
+                    <div class="col-md-5 z-100">
+                      <img src="image/fashion-6-300x300.jpg" class="w-100" alt="...">
+                    </div>
+                    <div class="col-md-7 ">
+                      <div class="card-body z-100 position-relative">
+                        <h5 class=" fs-14">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h5>
+                        <p class="card-text mb-0">148$</p>
+                        <div class="card-text stars fs-14 ">
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star-half fs-14 "></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <form action="" class="d-flex gap-10 card-btn z-100 ">
+                    <button class="btn btn-outline-dark flex-1 bg-gray border-0">+ ADD TO CART</button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-regular fa-heart"></i></button>
+                  </form>
+                </div>
+              </a>
+              <a href="" class="card  p-3 text-decoration-none border-bottom-left border-top-0 w-30 w-100-xl"  style="max-width: 440px;">
+                <div class="full-body">
+                  <div class="row g-0 align-items-center position-relative">
+                    <div class="col-md-5 z-100">
+                      <img src="image/fashion-16-300x300.jpg" class="w-100" alt="...">
+                    </div>
+                    <div class="col-md-7 ">
+                      <div class="card-body z-100 position-relative">
+                        <h5 class=" fs-14">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h5>
+                        <p class="card-text mb-0">148$</p>
+                        <div class="card-text stars fs-14 ">
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star-half fs-14 "></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <form action="" class="d-flex gap-10 card-btn z-100 ">
+                    <button class="btn btn-outline-dark flex-1 bg-gray border-0">+ ADD TO CART</button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-regular fa-heart"></i></button>
+                  </form>
+                </div>
+              </a>
+              <a href="" class="card  p-3 text-decoration-none rounded-0 border-top-0 w-30  w-100-xl" style="max-width: 440px;">
+                <div class="full-body">
+                  <div class="row g-0 align-items-center position-relative">
+                    <div class="col-md-5 z-100">
+                      <img src="image/fashion-1-300x300.jpg" class="w-100" alt="...">
+                    </div>
+                    <div class="col-md-7 ">
+                      <div class="card-body z-100 position-relative">
+                        <h5 class=" fs-14">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h5>
+                        <p class="card-text mb-0">148$</p>
+                        <div class="card-text stars fs-14 ">
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star-half fs-14 "></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <form action="" class="d-flex gap-10 card-btn z-100 ">
+                    <button class="btn btn-outline-dark flex-1 bg-gray border-0">+ ADD TO CART</button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-regular fa-heart"></i></button>
+                  </form>
+                </div>
+              </a>
+              <a href="" class="card  p-3 text-decoration-none border-bottom-right border-top-0 w-30 w-100-xl " style="max-width: 440px;">
+                <div class="full-body">
+                  <div class="row g-0 align-items-center position-relative">
+                    <div class="col-md-5 z-100">
+                      <img src="image/fashion-3-300x300.jpg" class="w-100" alt="...">
+                    </div>
+                    <div class="col-md-7 ">
+                      <div class="card-body z-100 position-relative">
+                        <h5 class=" fs-14">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h5>
+                        <p class="card-text mb-0">148$</p>
+                        <div class="card-text stars fs-14 ">
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star-half fs-14 "></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <form action="" class="d-flex gap-10 card-btn z-100 ">
+                    <button class="btn btn-outline-dark flex-1 bg-gray border-0">+ ADD TO CART</button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-regular fa-heart"></i></button>
+                  </form>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="nav-disabled" role="tabpanel" aria-labelledby="nav-disabled-tab" tabindex="0">
+            <div class="all mt-4 d-flex flex-wrap flex-column flex-xl-row align-items-center justify-content-center">
+              <a href="" class="card border p-3 text-decoration-none border-top-left w-30  w-100-xl" style="max-width: 440px;">
+                <div class="full-body">
+                  <div class="row g-0 align-items-center position-relative">
+                    <div class="col-md-5 z-100">
+                      <img src="image/fashion-5-700x700.jpg" class="w-100" alt="...">
+                    </div>
+                    <div class="col-md-7 ">
+                      <div class="card-body z-100 position-relative">
+                        <h5 class=" fs-14">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h5>
+                        <p class="card-text mb-0">148$</p>
+                        <div class="card-text stars fs-14 ">
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star-half fs-14 "></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <form action="" class="d-flex gap-10 card-btn z-100 ">
+                    <button class="btn btn-outline-dark flex-1 bg-gray border-0">+ ADD TO CART</button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-regular fa-heart"></i></button>
+                  </form>
+                </div>
+              </a>
+              <a href="" class="card border p-3 text-decoration-none rounded-0 w-30 w-100-xl" style="max-width: 440px;">
+                <div class="full-body">
+                  <div class="row g-0 align-items-center position-relative">
+                    <div class="col-md-5 z-100">
+                      <img src="image/fashion-9-300x300.jpg" class="w-100" alt="...">
+                    </div>
+                    <div class="col-md-7 ">
+                      <div class="card-body z-100 position-relative">
+                        <h5 class=" fs-14">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h5>
+                        <p class="card-text mb-0">148$</p>
+                        <div class="card-text stars fs-14 ">
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star-half fs-14 "></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <form action="" class="d-flex gap-10 card-btn z-100 ">
+                    <button class="btn btn-outline-dark flex-1 bg-gray border-0">+ ADD TO CART</button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-regular fa-heart"></i></button>
+                  </form>
+                </div>
+              </a>
+              <a href="" class="card border p-3 text-decoration-none border-top-right w-30  w-100-xl" style="max-width: 440px;">
+                <div class="full-body">
+                  <div class="row g-0 align-items-center position-relative">
+                    <div class="col-md-5 z-100">
+                      <img src="image/fashion-6-300x300.jpg" class="w-100" alt="...">
+                    </div>
+                    <div class="col-md-7 ">
+                      <div class="card-body z-100 position-relative">
+                        <h5 class=" fs-14">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h5>
+                        <p class="card-text mb-0">148$</p>
+                        <div class="card-text stars fs-14 ">
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star-half fs-14 "></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <form action="" class="d-flex gap-10 card-btn z-100 ">
+                    <button class="btn btn-outline-dark flex-1 bg-gray border-0">+ ADD TO CART</button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-regular fa-heart"></i></button>
+                  </form>
+                </div>
+              </a>
+              <a href="" class="card  p-3 text-decoration-none border-bottom-left border-top-0 w-30 w-100-xl"  style="max-width: 440px;">
+                <div class="full-body">
+                  <div class="row g-0 align-items-center position-relative">
+                    <div class="col-md-5 z-100">
+                      <img src="image/fashion-16-300x300.jpg" class="w-100" alt="...">
+                    </div>
+                    <div class="col-md-7 ">
+                      <div class="card-body z-100 position-relative">
+                        <h5 class=" fs-14">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h5>
+                        <p class="card-text mb-0">148$</p>
+                        <div class="card-text stars fs-14 ">
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star-half fs-14 "></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <form action="" class="d-flex gap-10 card-btn z-100 ">
+                    <button class="btn btn-outline-dark flex-1 bg-gray border-0">+ ADD TO CART</button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-regular fa-heart"></i></button>
+                  </form>
+                </div>
+              </a>
+              <a href="" class="card  p-3 text-decoration-none rounded-0 border-top-0 w-30  w-100-xl" style="max-width: 440px;">
+                <div class="full-body">
+                  <div class="row g-0 align-items-center position-relative">
+                    <div class="col-md-5 z-100">
+                      <img src="image/fashion-1-300x300.jpg" class="w-100" alt="...">
+                    </div>
+                    <div class="col-md-7 ">
+                      <div class="card-body z-100 position-relative">
+                        <h5 class=" fs-14">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h5>
+                        <p class="card-text mb-0">148$</p>
+                        <div class="card-text stars fs-14 ">
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star-half fs-14 "></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <form action="" class="d-flex gap-10 card-btn z-100 ">
+                    <button class="btn btn-outline-dark flex-1 bg-gray border-0">+ ADD TO CART</button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-regular fa-heart"></i></button>
+                  </form>
+                </div>
+              </a>
+              <a href="" class="card p-3 text-decoration-none border-bottom-right border-top-0 w-30 w-100-xl " style="max-width: 440px;">
+                <div class="full-body">
+                  <div class="row g-0 align-items-center position-relative">
+                    <div class="col-md-5 z-100">
+                      <img src="image/fashion-3-300x300.jpg" class="w-100" alt="...">
+                    </div>
+                    <div class="col-md-7 ">
+                      <div class="card-body z-100 position-relative">
+                        <h5 class=" fs-14">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h5>
+                        <p class="card-text mb-0">148$</p>
+                        <div class="card-text stars fs-14 ">
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star fs-14 "></i>
+                          <i class="fa-solid fa-star-half fs-14 "></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <form action="" class="d-flex gap-10 card-btn z-100 ">
+                    <button class="btn btn-outline-dark flex-1 bg-gray border-0">+ ADD TO CART</button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button class="btn btn-outline-dark bg-gray border-0"><i class="fa-regular fa-heart"></i></button>
+                  </form>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End arrivals -->
+    <!-- Start Model -->
+    <section class="m-section bg-gray position-relative align-items-center pb-3">
+      <div class="container w-75 d-flex align-items-center flex-column flex-md-row ">
+        <div id="carouselExampleDark-2" class="carousel carousel-dark slide h-70 h-50-xl  h-100-l overflow-hidden  w-75 w-100-xl">
+          <div class="carousel-inner position-relative offer-scale">
+            <div class="carousel-item active" data-bs-interval="3000">
+              <img src="image/download-2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="image/download-1.png" class="d-block w-100 " alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="image/download-3.png" class="d-block w-100" alt="...">
+            </div>
+            <!-- <div class="carousel-item" data-bs-interval="3000">
+              <img src="image/download-4.png" class="d-block " alt="...">
+            </div> -->
+          </div>
+        </div>
+        <div class="p-5 rounded-2 bg-white w-40 w-100-xl shadow">
+          <h3>Athletics Embroidered Relaxed Hoodie</h3>
+          <ul class="list-unstyled mb-0">
+            <li><i class="fa-solid fa-check text-success"></i> 64% cotton, 36% polyester</li>
+            <li><i class="fa-solid fa-check text-success"></i> Do not dry clean</li>
+            <li><i class="fa-solid fa-check text-success"></i> Machine wash</li>
+          </ul>
+          <hr>
+          <h3>$89 <span class="text-body-tertiary fs-4 text-decoration-line-through">$120</span></h3>
+          <div class="imgs d-flex mb-4 gap-10">
+            <div class="w-20 p-2 border rounded-3"><button class="btn p-0 m-0 bg-transparent border-1 "type="button" data-bs-target="#carouselExampleDark-2" data-bs-slide-to="0" aria-label="Slide 1"><img src="image/download-2.png" class="w-100 " alt=""></button></div>
+            <div class="w-20 p-2 border rounded-3"><button class="btn p-0 m-0 bg-transparent border-1 "type="button" data-bs-target="#carouselExampleDark-2" data-bs-slide-to="1" aria-label="Slide 2"><img src="image/download-1.png" class="w-100 " alt=""></button></div>
+            <div class="w-20 p-2 border rounded-3"><button class="btn p-0 m-0 bg-transparent border-1 r" type="button" data-bs-target="#carouselExampleDark-2" data-bs-slide-to="2" aria-label="Slide 3"><img src="image/download-3.png" class="w-100 " alt=""></button></div>
+          </div>
+          <button class="btn btn-dark w-100">Buy Now</button>
+        </div>
+      </div>
+      <div class="container">
+        <button class="bg-transparent border-0 position-absolute top-50 end-10" type="button" data-bs-target="#carouselExampleDark-2" data-bs-slide="prev"><i class="fa-solid fa-angle-right"></i></button>
+        <button class="bg-transparent border-0 position-absolute top-50 start-10" type="button" data-bs-target="#carouselExampleDark-2" data-bs-slide="next"><i class="fa-solid fa-angle-left"></i></button>
+      </div>
+    </section>
+    <!-- End Model -->
+    <!-- Start Blog -->
+    <section class="Blog m-section mb-5">
+      <div class="container">
+        <div class="head-section d-flex justify-content-between flex-wrap mb-4">
+          <h2 class="fw-bold">From Our Blog</h2>
+        </div>
+        <div class="owl-carousel" id="owl-3">
+          <div>  
+            <a href="" class="card-blog rounded-4 position-relative text-black text-decoration-none">
+              <div class="overflow-hidden rounded-2">
+                <img src="image/blog-1.jpg" class="card-img-top d-block" alt="...">
+              </div>
+              <div class="card-body">
+                <div class="fs-14 mt-3">
+                  <span class="hover-link">Beauty & Fashion</span><span class="text-body-tertiary ms-2">- By</span> <span class="hover-link">Myoui Mina</span>
+                </div>
+                <a href="" class="text-black text-decoration-none fs-5  d-block hover-link">Weekday Outfit Inspiration for All Occasions</a>
+                <p class="text-body-tertiary mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta et nisi at sodales. </p>
+                <button type="button" class="btn btn-outline-dark px-3 fw-bold mt-1">Read More</button>
+              </div>
+            </a>
+          </div>
+          <div>  
+            <a href="" class="card-blog rounded-4 position-relative text-black text-decoration-none">
+              <div class="overflow-hidden rounded-2">
+                <img src="image/blog-2.jpg" class="card-img-top d-block" alt="...">
+              </div>
+              <div class="card-body">
+                <div class="fs-14 mt-3">
+                  <span class="hover-link">Cosmetics</span><span class="text-body-tertiary ms-2">- By</span> <span class="hover-link">Myoui Mina</span>
+                </div>
+                <a href="" class="text-black text-decoration-none fs-5  d-block hover-link">100% Pure & Natural Sage Essential Oil</a>
+                <p class="text-body-tertiary mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta et nisi at sodales. </p>
+                <button type="button" class="btn btn-outline-dark px-3 fw-bold mt-1">Read More</button>
+              </div>
+            </a>
+          </div>
+          <div>  
+            <a href="" class="card-blog rounded-4 position-relative text-black text-decoration-none">
+              <div class="overflow-hidden rounded-2">
+                <img src="image/blog-3.jpg" class="card-img-top d-block" alt="...">
+              </div>
+              <div class="card-body">
+                <div class="fs-14 mt-3">
+                  <span class="hover-link">Electronics</span><span class="text-body-tertiary ms-2">- By</span> <span class="hover-link">Myoui Mina</span>
+                </div>
+                <a href="" class="text-black text-decoration-none fs-5  d-block hover-link">Tips for Cleaning Desktop & Laptop</a>
+                <p class="text-body-tertiary mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta et nisi at sodales. </p>
+                <button type="button" class="btn btn-outline-dark px-3 fw-bold mt-1">Read More</button>
+              </div>
+            </a>
+          </div>
+          <div>  
+            <a href="" class="card-blog rounded-4 position-relative text-black text-decoration-none">
+              <div class="overflow-hidden rounded-2">
+                <img src="image/blog-4.jpg" class="card-img-top d-block" alt="...">
+              </div>
+              <div class="card-body">
+                <div class="fs-14 mt-3">
+                  <span class="hover-link">Cosmetics</span><span class="text-body-tertiary ms-2">- By</span> <span class="hover-link">Myoui Mina</span>
+                </div>
+                <a href="" class="text-black text-decoration-none fs-5  d-block hover-link">1Giorgio Armani Si Intense Eau de Parfum Review</a>
+                <p class="text-body-tertiary mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta et nisi at sodales. </p>
+                <button type="button" class="btn btn-outline-dark px-3 fw-bold mt-1">Read More</button>
+              </div>
+            </a>
+          </div>
+          <div>  
+            <a href="" class="card-blog rounded-4 position-relative text-black text-decoration-none">
+              <div class="overflow-hidden rounded-2">
+                <img src="image/blog-5-1.jpg" class="card-img-top d-block" alt="...">
+              </div>
+              <div class="card-body">
+                <div class="fs-14 mt-3">
+                  <span class="hover-link">Autoparts</span><span class="text-body-tertiary ms-2">- By</span> <span class="hover-link">Myoui Mina</span>
+                </div>
+                <a href="" class="text-black text-decoration-none fs-5  d-block hover-link">The Best Affordable Convertible Cars to Rent</a>
+                <p class="text-body-tertiary mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta et nisi at sodales. </p>
+                <button type="button" class="btn btn-outline-dark px-3 fw-bold mt-1">Read More</button>
+              </div>
+            </a>
+          </div>
+          <div>  
+            <a href="" class="card-blog rounded-4 position-relative text-black text-decoration-none">
+              <div class="overflow-hidden rounded-2">
+                <img src="image/blog-6.jpg" class="card-img-top d-block" alt="...">
+              </div>
+              <div class="card-body">
+                <div class="fs-14 mt-3">
+                  <span class="hover-link">Electronics</span><span class="text-body-tertiary ms-2">- By</span> <span class="hover-link">Myoui Mina</span>
+                </div>
+                <a href="" class="text-black text-decoration-none fs-5  d-block hover-link">10 Things to Learn from Apple’s Marketing Strategy</a>
+                <p class="text-body-tertiary mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta et nisi at sodales. </p>
+                <button type="button" class="btn btn-outline-dark px-3 fw-bold mt-1">Read More</button>
+              </div>
+            </a>
+          </div>
+      </div>
+    </section>
+    <!-- End Blog -->
+    <!-- Start Footer -->
+    <footer class="bg-dark p-section ">
+      <div class="container ">
+        <div class="top d-flex justify-content-between  text-center flex-md-row flex-column">
+          <div class="logo w-20 w-100-xl">
+            <img src="image/logo-white.png" class="w-50 pb-5" alt="">
+            <div class="d-flex justify-content-center ">
+              <i class="fa-solid fa-location-dot text-gray me-2"></i>
+              <p class="text-gray fs-6 text-start">29 SE 2nd Ave, Miami <br> Florida 33131, United States</p>
+            </div>
+            <p class="text-gray fs-6"><i class="fa-regular fa-envelope me-2"></i>nfo@example.com</p>
+            <a href="" class="text-white text-decoration-none fs-4 hover-link sec-trans">(+92) 3942 7879</a>
+          </div>
+          <ul class="list-unstyled w-100-xl">
+            <li class="text-white mb-4"><h6>SHOPPING</h6></li>
+            <li><a href="" class="text-white hover-link text-decoration-none mb-2 d-block sec-trans">Whishlist</a></li>
+            <li><a href="" class="text-white hover-link text-decoration-none mb-2 d-block sec-trans">Shop by Brand</a></li>
+            <li><a href="" class="text-white hover-link text-decoration-none mb-2 d-block sec-trans">Offres</a></li>
+            <li><a href="" class="text-white hover-link text-decoration-none mb-2 d-block sec-trans">Track Order</a></li>
+            <li><a href="" class="text-white hover-link text-decoration-none mb-2 d-block sec-trans">Size Guide</a></li>
+          </ul>
+          <ul class="list-unstyled w-100-xl">
+            <li class="text-white mb-4"><h6>INFOMATION</h6></li>
+            <li><a href="" class="text-white hover-link text-decoration-none mb-2 d-block sec-trans">Track Order</a></li>
+            <li><a href="" class="text-white hover-link text-decoration-none mb-2 d-block sec-trans">SHOPPING & Returns</a></li>
+            <li><a href="" class="text-white hover-link text-decoration-none mb-2 d-block sec-trans">About Us</a></li>
+            <li><a href="" class="text-white hover-link text-decoration-none mb-2 d-block sec-trans">Help</a></li>
+            <li><a href="" class="text-white hover-link text-decoration-none mb-2 d-block sec-trans">Gift Cards</a></li>
+          </ul> 
+          <ul class="list-unstyled w-100-xl">
+            <li class="text-white mb-4"><h6>Account</h6></li>
+            <li><a href="" class="text-white hover-link text-decoration-none mb-2 d-block sec-trans">Cart</a></li>
+            <li><a href="" class="text-white hover-link text-decoration-none mb-2 d-block sec-trans">My account</a></li>
+            <li><a href="" class="text-white hover-link text-decoration-none mb-2 d-block sec-trans">My orders</a></li>
+            <li><a href="" class="text-white hover-link text-decoration-none mb-2 d-block sec-trans">Whishlist</a></li>
+            <li><a href="" class="text-white hover-link text-decoration-none mb-2 d-block sec-trans">Affiliate Program</a></li>
+          </ul>
+          <div class="keep w-100-xl">
+            <h3 class="text-white fs-4 ">Let’s keep in touch</h3>
+            <div class="arrwo-input position-relative  mt-4 ">
+              <input type="email" placeholder="enter your email address" class="border border-dark-subtle px-3 py-3  w-100 rounded-2 bg-transparent">
+            </div>
+            <div class="links mt-4">
+              <a href=""><i class="fa-brands fa-facebook-f text-white hover-link me-3 fs-4 sec-trans"></i></a>
+              <a href=""><i class="fa-brands fa-tiktok text-white hover-link me-3 fs-4 sec-trans"></i></a>
+              <a href=""><i class="fa-brands fa-x-twitter text-white hover-link me-3 fs-4 sec-trans"></i></a>
+              <a href=""><i class="fa-brands fa-youtube text-white hover-link me-3 fs-4 sec-trans"></i></a>
+              <a href=""><i class="fa-brands fa-instagram text-white hover-link me-3 fs-4 sec-trans"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="center mt-5 border py-4 d-flex justify-content-evenly flex-md-row flex-column">
+          <div class="d-flex mt-4">
+            <i class="fa-solid fa-phone text-white fs-3 me-2"></i>
+            <div class="text-footer text-white">
+              <h3 class="fs-6">Didn't find what you were looking for?</h3>
+              <a href="" class="text-white ">Contact us</a>
+            </div>
+          </div>
+          <div class="d-flex mt-4">
+            <i class="fa-regular fa-face-smile-beam text-white fs-3 me-2"></i>
+            <div class="text-footer text-white">
+              <h3 class="fs-6">How can we help you today?</h3>
+              <a href="" class="text-white ">Help Center</a>
+            </div>
+          </div>
+          <div class="d-flex mt-4">
+            <i class="fa-brands fa-chrome text-white fs-3 me-2"></i>
+            <div class="text-footer text-white">
+              <h3 class="fs-6">We’d love to hear what you think!</h3>
+              <a href="" class="text-white ">Give Feedback</a>
+            </div>
+          </div>
+        </div>
+        <div class=" m-0 py-4 d-flex justify-content-between">
+          <p class="text-gray fs-6">Copyright © Merto. All Rights Reserved</p>
+        <div class="icons">
+          <i class="fa-brands fa-cc-paypal text-white fs-2"></i>
+          <i class="fa-brands fa-cc-amazon-pay text-white fs-2"></i>
+          <i class="fa-brands fa-cc-stripe text-white fs-2"></i>
+          <i class="fa-brands fa-cc-mastercard text-white fs-2"></i>
+          <i class="fa-brands fa-cc-jcb text-white fs-2"></i>
+          <i class="fa-brands fa-cc-discover text-white fs-2"></i>
+          <i class="fa-brands fa-cc-apple-pay text-white fs-2"></i>
+        </div>
+        </div>
+      </div>
+    </footer>
+    <a href="#nav" id="up" class="none text-decoration-none position-fixed px-3 py-3  fs-14  rounded-2 bg-black text-white d-flex justify-content-center align-items-center mb-1 me-1 end-0 bottom-0 "><i class="fa-solid fa-arrow-up"></i></a>
+    <!-- End Footer -->
+    <!-- Js Boot Strap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <!-- jquery cdn -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+      <!-- Owl -->
+      <script src="js/owl.carousel.min.js"></script>
+      <!-- Main js -->
+      <script src="js/main.js"></script>
+  </body>
+</html>
